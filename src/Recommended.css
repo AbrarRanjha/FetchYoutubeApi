@@ -1,0 +1,26 @@
+.Recommended {
+  flex: 2;
+
+  background-color: #f9f9f9;
+  padding-bottom: 0;
+}
+.Recommended > h2 {
+  margin-left: 0.5rem;
+  margin-bottom: 2rem;
+}
+.Recommended__videos {
+ width: 100%;
+  /* flex-wrap: wrap; */
+}
+@media only screen and (max-width: 600px) {
+  .Recommended__videos {
+    width: 100%;
+     
+   }
+   .Recommended {
+    flex: 1;
+  
+    
+  }
+}
+

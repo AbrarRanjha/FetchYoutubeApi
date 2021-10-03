@@ -1,0 +1,64 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: white;
+}
+.app-page {
+  display: flex;
+}
+.header__logo {
+  height: 2.5rem;
+  object-fit: contain;
+  margin-left: 1rem;
+  cursor: pointer;
+}
+.header__left {
+  display: flex;
+  align-items: center;
+  margin-right: 0.5rem;
+  cursor: pointer;
+}
+.header__inputs {
+  display: flex;
+  align-items: center;
+  width: 40%;
+  border: 1px solid black;
+}
+.header__icons {
+  display: flex;
+  align-items: center;
+  margin-left: 0.5rem;
+}
+.header__inputs > input {
+  border: none;
+  flex: 1;
+}
+.header__search {
+  width: 1.5rem !important;
+  background-color: #fafafa;
+  border-left: 1px solid lightgray;
+  color: gray;
+  cursor: pointer;
+}
+.header__icon {
+  margin-right: 0.8px;
+  margin-left: 0.8rem;
+  cursor: pointer;
+}
+@media only screen and (max-width: 600px) {
+  .header__logo {
+    height: 1.5rem;
+    margin-left: -0.5rem;
+    
+  }
+  
+  .header__inputs > input {
+   width:10px;
+   height:3px ;
+  }
+}
